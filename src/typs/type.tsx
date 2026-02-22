@@ -1,7 +1,11 @@
 export type AdminInput = {
+    inputType: "email" | "password";
+    value: string;
+    onChange: (value: string) => void;
+}
+
+export type ButtonRpl = {
     username: string;
     password: string;
-    icon: string;
-    placeholder: string;
-    inputType: "email" | "password";
+    buttonText: string;
 }

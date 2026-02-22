@@ -1,8 +1,13 @@
 import bg from "../assets/png/BackgroundSsekolah.png";
 import mc from "../assets/png/Orang1Cowo.png";
 import InputAdmin from "../components/InputAdmin";
+import ButtonRpl from "../components/ButtonRpl";
+
+import { useState } from "react";
 
 export default function LOginAdmin() {
+    const [username, setUsername] = useState<string>("");
+    const [password, setPassword] = useState<string>("");
     return (
         <div className="flex" >
             <div className="h-screen flex w-1/2">
@@ -17,12 +22,9 @@ export default function LOginAdmin() {
                 </div>
                 <div>
                     <div>
-                        <InputAdmin adminInput={{
-                            username: "Username",
-                            password: "Password",
-                            icon: "EmailIcon",
-                            placeholder: "Email"
-                        }} />
+                        <InputAdmin value={username} onChange={setUsername} inputType="email" />
+                        <InputAdmin value={password} onChange={setPassword} inputType="password" />
+                        <ButtonRpl username={username} password={password} />
                     </div>
                 </div>
             </div>
