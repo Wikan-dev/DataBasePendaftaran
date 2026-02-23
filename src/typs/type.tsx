@@ -5,7 +5,12 @@ export type AdminInput = {
 }
 
 export type ButtonRpl = {
-    username: string;
+    email: string;
     password: string;
-    buttonText: string;
+    // buttonText: string;
+}
+
+export type PopUp = {
+    type: "logout" | "hapus" | "konfirmasi" | null
+    onClose: () => void
 }
