@@ -1,10 +1,8 @@
 import person from "../assets/png/OrangCewe1.png"
 import backgroundSekolah from "../assets/png/BackgroundSsekolah.png"
-import { motion } from "framer-motion"
 import ButtonRpl from "../components/ButtonRpl"
 import ButtonCancel from "../components/ButtonCancel"
 import { useState } from "react"
-import { label } from "framer-motion/client"
 
 
 export default function Daftar() {
