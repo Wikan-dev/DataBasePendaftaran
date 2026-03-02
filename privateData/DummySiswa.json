@@ -1,0 +1,24 @@
+[
+    {
+        "id" : 1,
+        "namaLengkap" : "Andrei Khan",
+        "tanggalLahir" : "01/01/2009",
+        "jurusan" : "RPL",
+        "kotaAsal" : "Denpasar", 
+        "jenisKelamin" : "Laki-laki",
+        "sekolahAsal" : "SMP Wisata Sanur",
+        "noTelp" : 81234567890,
+        "alamat" : "Panjer"
+    },
+    {
+        "id" : 2,
+        "namaLengkap" : "Andrei Khan",
+        "tanggalLahir" : "01/01/2009",
+        "jurusan" : "RPL",
+        "kotaAsal" : "Denpasar", 
+        "jenisKelamin" : "Laki-laki",
+        "sekolahAsal" : "SMP Wisata Sanur",
+        "noTelp" : 81234567890,
+        "alamat" : "Panjer"
+    }
+]

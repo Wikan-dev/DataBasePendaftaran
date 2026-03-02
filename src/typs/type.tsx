@@ -7,10 +7,17 @@ export type AdminInput = {
 export type ButtonRpl = {
     email: string;
     password: string;
+    setConfirm: (value: boolean) => void;
     // buttonText: string;
 }
 
 export type PopUp = {
-    type: "logout" | "hapus" | "konfirmasi" | null
+    type: "logout" | "hapus" | "konfirmasi" | "succes" | null
     onClose: () => void
+}
+
+export type popupConfig = {
+    title: string;
+    desc: string;
+    icon: string;
 }

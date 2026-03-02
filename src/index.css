@@ -8,6 +8,13 @@
 
 @theme {
     --font-poppins-bold: poppins;
-    --color-rpl-blue: #1783FF;
     --color-rpl-red: #F90015;
+    --color-rpl-blue-100: #E2F2FF;
+    --color-rpl-blue-200: #98CAFF;
+    --color-rpl-blue-300: #1783FF;
+    --color-rpl-blue-400: #004EDF;
+    --color-rpl-blue-500: #003EB1;
+    --color-rpl-yellow: #FFCC00;
+    --color-rpl-red: #F90015;
+    --color-rpl-brown: #A60614;
 }
