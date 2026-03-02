@@ -52,6 +52,12 @@ export default function Daftar() {
                                 <input type="text" id="KotaAsal" placeholder="Ketik" className="w-full border border-[#004EDF] h-9 focus:outline-none border-2 rounded-xl px-3 py-2" />
                             </div>
                             <div className="w-full">
+                                <label htmlFor="No Telepon" className="text-[#005695] font-medium text-lg">No Telepon</label>
+                                <input type="number" id="No Telepon" placeholder="Ketik" className="w-full border border-[#004EDF] h-9 focus:outline-none border-2 rounded-xl px-3 py-2" />
+                            </div>
+                        </div>
+                        <div className="flex flex-row gap-10">
+                            <div className="w-full">
                                 <label htmlFor="jenisKelamin" className="text-[#005695] font-medium text-xl">Jenis Kelamin</label>
                                 <div className="flex gap-20 mt-2">
                                     {option.map((option) => (
@@ -67,15 +73,9 @@ export default function Daftar() {
                             </div>
                         </div>
                         <div className="flex flex-row gap-10">
-                            <div className="w-1/2">
-                                <label htmlFor="No Telepon" className="text-[#005695] font-medium text-lg">No Telepon</label>
-                                <input type="number" id="No Telepon" placeholder="Ketik" className="w-full border border-[#004EDF] h-9 focus:outline-none border-2 rounded-xl px-3 py-2" />
-                            </div>
-                        </div>
-                        <div className="flex flex-row gap-10">
                             <div className="w-full">
                                 <label htmlFor="Alamat" className="text-[#005695] font-medium text-lg">Alamat</label>
-                                <textarea id="Alamat" placeholder="Ketik" className="w-full h-30 border border-[#004EDF] focus:outline-none border-2 rounded-xl px-3 py-2 resize-none" />
+                                <textarea id="Alamat" placeholder="Ketik" className="w-full h-20 border border-[#004EDF] focus:outline-none border-2 rounded-xl px-3 py-2 resize-none" />
                             </div>
                         </div>
                         <div className="flex flex-row mt-5">
