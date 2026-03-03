@@ -8,9 +8,9 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<LOginAdmin />} />
+        <Route path="Login" element={<LOginAdmin />} />
         <Route path="Daftar" element={<Daftar />} />
-        <Route path="LandingPage" element={<LandingPage />} />
+        <Route path="/" element={<LandingPage />} />
         <Route path="/dashboard/:sessionId" element={<MainTable />} />
       </Routes>
     </BrowserRouter>

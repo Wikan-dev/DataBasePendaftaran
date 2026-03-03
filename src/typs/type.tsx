@@ -12,7 +12,7 @@ export type ButtonRpl = {
 }
 
 export type PopUp = {
-    type: "logout" | "hapus" | "konfirmasi" | "succes" | null
+    type: "logout" | "save" | "hapus" | "konfirmasi" | "succes"
     onClose: () => void
 }
 
@@ -20,4 +20,14 @@ export type popupConfig = {
     title: string;
     desc: string;
     icon: string;
+}
+
+export type TdProps = {
+  children: React.ReactNode;
+  className?: string;
+};
+
+export type TableProps = {
+    onEdit: (value: boolean) => void;
+    onDelete: (value: boolean) => void;
 }
