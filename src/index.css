@@ -17,4 +17,22 @@
     --color-rpl-yellow: #FFCC00;
     --color-rpl-red: #F90015;
     --color-rpl-brown: #A60614;
+    --color-rpl-bg: #E2F2FF;
+}
+
+html, body {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.row-even {
+    background-color: white;
+}
+.row-odd {
+    background-color: #E2F2FF;
 }

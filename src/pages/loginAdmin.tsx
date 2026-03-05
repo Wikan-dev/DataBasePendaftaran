@@ -3,7 +3,7 @@ import mc from "../assets/png/Orang1Cowo.png";
 import InputAdmin from "../components/InputAdmin";
 import ButtonRpl from "../components/ButtonRpl";
 import ButtonCancel from "../components/ButtonCancel";
-import Popup from "../components/CustomPopup";
+// import Popup from "../components/CustomPopup";
 
 import { useState } from "react";
 
@@ -14,7 +14,7 @@ export default function LOginAdmin() {
 
     return (
         <div className="flex" >
-            {confirm && <Popup onClose={() => setConfirm(false)} type={"hapus"} />}
+            {/* {confirm && <Popup onClose={() => setConfirm(false)} type={"hapus"} />} */}
 
             <div className="h-screen flex w-1/2">
                 <img src={mc} alt="Orang 1 Cowo" className="absolute h-screen " />
